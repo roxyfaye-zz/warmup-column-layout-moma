@@ -1,0 +1,62 @@
+*{
+   box-sizing: border-box;
+}
+
+.news-section{
+	width: 768px;
+	margin: 0 auto;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", "serif";
+}
+
+.major-moma-container{
+  width: 768px;
+  margin: 0 auto;
+  border: 10px solid #ddd;
+  display: flex;
+}
+
+.major-column{
+  flex-basis: 33.3333333%;
+  border-right: 8px solid #ddd;
+  padding: 10px;
+}
+
+.major-column:last-child{
+  border-right: 0;
+}
+
+h6 {
+  color: gray;
+}
+
+.mini-container {
+  display:flex;
+}
+
+.text-column {
+  flex-basis:60%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.img-column {
+flex-
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+
+/*General site styles + general classes*/
